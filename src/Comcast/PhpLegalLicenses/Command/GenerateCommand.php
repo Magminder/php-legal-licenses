@@ -39,10 +39,7 @@ class GenerateCommand extends DependencyLicenseCommand
         $this->hideVersion = $input->getOption('hide-version');
         $dependencies = $this->getDependencyList();
 
-        $output->writeln('<info>Generating Licenses file...</info>');
         $this->generateLicensesText($dependencies);
-
-        $output->writeln('<info>Done!</info>');
     }
 
     /**
