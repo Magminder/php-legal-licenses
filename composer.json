@@ -1,5 +1,6 @@
 {
     "name": "php-legal-licenses",
+    "version": "1.0",
     "description": "A utility to generate a Licenses file containing the full license text for every dependency in your project for legal purposes.",
     "type": "library",
     "keywords": [
