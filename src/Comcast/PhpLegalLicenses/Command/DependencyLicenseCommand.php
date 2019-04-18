@@ -16,7 +16,7 @@ class DependencyLicenseCommand extends Command
     {
         $this->verifyComposerLockFilePresent();
         $packages = $this->parseComposerLockFile();
-        $dependencies = $packages['packages'];
+        $dependencies = array_merge($packages['packages'] ?: [], $packages['packages-dev']);
 
         return $dependencies;
     }
