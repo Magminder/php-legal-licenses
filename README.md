@@ -9,7 +9,7 @@ This utility will generate a `licenses.md` file in the root of your project that
 If you need a utility such as this for your place of business, chances are, you will need it for more than a single project. Therefore, the easiest and reccommeded way to install this utility is as a global composer package:
 
 ```php
-composer global require https://github.com/Magminder/php-legal-licenses
+composer global require https://github.com/Magminder/php-legal-licenses.git
 ```
 
 ## Usage
