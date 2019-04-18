@@ -51,13 +51,9 @@ class GenerateCommand extends DependencyLicenseCommand
      */
     protected function generateLicensesText($dependencies)
     {
-        $text = [];
-
         foreach ($dependencies as $dependency) {
-            $text[] = $this->getTextForDependency($dependency);
+            echo $this->getTextForDependency($dependency)."\n";
         }
-
-        echo implode("\n", $text);
     }
 
     /**
