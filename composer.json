@@ -1,5 +1,5 @@
 {
-    "name": "comcast/php-legal-licenses",
+    "name": "php-legal-licenses",
     "description": "A utility to generate a Licenses file containing the full license text for every dependency in your project for legal purposes.",
     "type": "library",
     "keywords": [
